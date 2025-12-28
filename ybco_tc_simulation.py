@@ -59,3 +59,13 @@ plt.savefig('ybco_tc_sensitivity.png')
 plt.close()
 
 print("Plots saved: ybco_tc_model.png and ybco_tc_sensitivity.png")
+
+# Simple pseudogap model (antinodal gap)
+k = np.linspace(0, np.pi, 100)  # Momentum along (π,0) to (0,π)
+E_gap = 50 * np.sin(k) ** 2  # meV, max at antinodes
+plt.plot(k, E_gap, label='Pseudogap (antinodal)')
+plt.xlabel('Momentum k (rad)')
+plt.ylabel('Gap energy (meV)')
+plt.title('YBCO Pseudogap Model')
+plt.legend()
+plt.savefig('ybco_pseudogap.png')
