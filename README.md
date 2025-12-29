@@ -25,3 +25,6 @@ Bleu Radiance (2025). YBCO Reproducibility Framework. Zenodo. https://doi.org/[Y
 git clone https://github.com/BleuRadiance/ybco-reproducibility-framework.git
 cd ybco-reproducibility-framework
 python ybco_tc_simulation.py  # Runs simulations, prints outputs, saves plots
+
+## Consultations
+This framework is designed to enhance reproducibility in physics research. For paid consultations or custom applications to your company's/institution's projects (e.g., quantum materials, superconductivity, or other CMP challenges), contact via GitHub issues or email (blueisresting@gmail.com). No unpaid consultancy.
