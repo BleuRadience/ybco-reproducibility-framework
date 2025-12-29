@@ -28,3 +28,7 @@ python ybco_tc_simulation.py  # Runs simulations, prints outputs, saves plots
 
 ## Consultations
 This framework is designed to enhance reproducibility in physics research. For paid consultations or custom applications to your company's/institution's projects (e.g., quantum materials, superconductivity, or other CMP challenges), contact via GitHub issues or email (blueisresting@gmail.com). No unpaid consultancy.
+
+Copyright (c) 2025 BleuRadience
+All rights reserved for moral attribution.
+Licensed under Apache 2.0 for code use.
